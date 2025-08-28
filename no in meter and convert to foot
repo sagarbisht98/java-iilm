@@ -6,7 +6,7 @@ public class main{
   Scanner(System.in);
   System.out.println("enter the meter value:");
      double meter=sc.nextDouble();
-     double foot=meter/0.305;
+     double foot=meter*3.28084;
   System.out.println("meter in foot is:"+foot)
   }
 }
